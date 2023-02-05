@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 
-function SearchBar(props) {
+function Searchbar(props) {
     let [searchTerm, setSearchTerm] = useState('')
 
     return (

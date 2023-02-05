@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 
 function Searchbar(props) {
     let [searchTerm, setSearchTerm] = useState('')
